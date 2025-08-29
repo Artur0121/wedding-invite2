@@ -3,8 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title><h1>Վարդան ❤️ Սեդա - Հարսանիք (2025-10-25)<h1>
-</h2>Սիրով հրավիրում ենք մասնակցելու մեր հարսանիքին</h2></title>
+<title>Վարդան ❤️ Սեդա (2025-10-25)</title>
 <style>
 :root {
   --bg1: #6a11cb;
@@ -120,9 +119,9 @@ h2{ font-size:18px; font-weight:500; margin:0 0 12px; opacity:0.9; }
 <div class="particle" style="left:90%; animation-delay:3s;"></div>
 
 <div class="card">
-  <h1><span>Վարդան</span> ❤️ <span>Սեդա</span></h1>
-  <h2>Պսակադրության Արարողություն</h2>
-  <p class="date">📅 2025 Հոկտեմբերի 25 </p>
+  <h1>Վարդան ❤️ Սեդա</h1>
+  <h2>Սիրով հրավիրում ենք մասնակցելու մեր պսակադրությանը</h2>
+  <div class="date">📅 2025 Հոկտեմբերի 25</div>
   <div id="countdown" class="countdown">—</div>
 
   <button class="btn" id="playBtn" type="button">▶ Երաժշտություն</button>
@@ -152,7 +151,7 @@ const cdEl = document.getElementById("countdown");
 setInterval(()=>{
   const now = Date.now();
   const d = weddingDate - now;
-  if(d<=0){ cdEl.textContent="🎉 Շնորհավորում ենք հարսանիքի կապակցությամբ!"; return; }
+  if(d<=0){ cdEl.textContent="🎉 Շնորհավորում ենք պսակադրության կապակցությամբ!"; return; }
   const days=Math.floor(d/(1000*60*60*24));
   const hours=Math.floor((d%(1000*60*60*24))/(1000*60*60));
   const mins=Math.floor((d%(1000*60*60))/(1000*60));
@@ -205,6 +204,3 @@ for(let i=0;i<numStars;i++){
 
 </body>
 </html>
-
-
-
